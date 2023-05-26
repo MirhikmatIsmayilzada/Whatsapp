@@ -1,0 +1,63 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+#whatsapp {
+  padding: 100px 0;
+}
+
+#whatsapp .chat {
+  background-color: aqua;
+  border: 1px solid aqua;
+  border-radius: 20px;
+  height: 350px;
+  width: 500px;
+  padding: 20px;
+}
+
+#whatsapp .chat .message {
+  background-color: azure;
+  overflow: scroll;
+  border-radius: 20px;
+  height: 260px;
+  margin-bottom: 15px;
+}
+
+#whatsapp .chat .message::-webkit-scrollbar {
+  width: 0;
+}
+
+#whatsapp .chat .message .line {
+  display: inline-block;
+  background-color: steelblue;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+#whatsapp .chat .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#whatsapp .chat .text input {
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+}
+
+#whatsapp .chat .text .sent {
+  overflow: hidden;
+  width: 40px;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+
+#whatsapp .chat .text .sent img {
+  cursor: pointer;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
