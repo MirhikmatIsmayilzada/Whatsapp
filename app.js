@@ -20,8 +20,6 @@ $(document).ready(function () {
         $("#messageyou").append(myel())
         $("#messageme").append(myel('class="text-end"'))
         $("#inputme").val("")
-        document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
-        document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
     });
 
     $("#you").click(function (e) {
@@ -44,8 +42,6 @@ $(document).ready(function () {
         $("#messageme").append(myel())
         $("#messageyou").append(myel('class="text-end"'))
         $("#inputyou").val("")
-        document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
-        document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
     });
 });
 
