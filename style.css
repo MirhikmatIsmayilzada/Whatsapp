@@ -6,7 +6,6 @@ body {
 #whatsapp {
   padding: 100px 0;
 }
-
 #whatsapp .chat {
   background-color: aqua;
   border: 1px solid aqua;
@@ -15,19 +14,16 @@ body {
   width: 500px;
   padding: 20px;
 }
-
 #whatsapp .chat .message {
   background-color: azure;
-  overflow: scroll;
   border-radius: 20px;
   height: 260px;
   margin-bottom: 15px;
+  overflow: auto;
 }
-
 #whatsapp .chat .message::-webkit-scrollbar {
   width: 0;
 }
-
 #whatsapp .chat .message .line {
   display: inline-block;
   background-color: steelblue;
@@ -36,28 +32,22 @@ body {
   margin: 5px;
   border-radius: 20px;
 }
-
 #whatsapp .chat .text {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 #whatsapp .chat .text input {
   border: 1px solid #ffffff;
   border-radius: 30px;
 }
-
 #whatsapp .chat .text .sent {
   overflow: hidden;
   width: 40px;
   border-radius: 30px;
   margin-left: 10px;
 }
-
 #whatsapp .chat .text .sent img {
   cursor: pointer;
   width: 100%;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

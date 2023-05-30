@@ -9,10 +9,12 @@
         padding: 20px
         .message
             background-color: azure
-            overflow: scroll
             border-radius: 20px
             height: 260px
             margin-bottom: 15px
+            overflow: auto
+            &::-webkit-scrollbar
+                width: 0
             .line
                 display: inline-block
                 background-color: steelblue
