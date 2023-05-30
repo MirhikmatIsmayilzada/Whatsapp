@@ -7,15 +7,15 @@ body {
   padding: 100px 0;
 }
 #whatsapp .chat {
-  background-color: aqua;
-  border: 1px solid aqua;
+  background-color: #e4ecff;
+  border: 1px solid #e4ecff;
   border-radius: 20px;
   height: 350px;
   width: 500px;
   padding: 20px;
 }
 #whatsapp .chat .message {
-  background-color: azure;
+  background-color: white;
   border-radius: 20px;
   height: 260px;
   margin-bottom: 15px;
@@ -26,7 +26,7 @@ body {
 }
 #whatsapp .chat .message .line {
   display: inline-block;
-  background-color: steelblue;
+  background-color: #829fd7;
   color: white;
   padding: 10px;
   margin: 5px;
